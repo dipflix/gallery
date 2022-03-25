@@ -122,7 +122,6 @@ class Heading4 {
 
 class Subtitle {
   late TextStyle regular = TextStyle(
-    color: ThemeColors.grayColors.normal,
     fontSize: FontSize.subtitle,
     height: FontSize.lineHeight,
   );
@@ -142,7 +141,6 @@ class Subtitle {
 
 class SmallSubtitle {
   late TextStyle regular = TextStyle(
-    color: ThemeColors.grayColors.normal,
     fontSize: FontSize.small,
     height: FontSize.lineHeight,
   );

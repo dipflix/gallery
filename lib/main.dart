@@ -10,6 +10,8 @@ Future main() async {
   runApp(const MyApp());
 }
 
+
+
 class MyApp extends StatelessWidget {
   static final AppRouter _router = AppRouter();
 
@@ -22,6 +24,7 @@ class MyApp extends StatelessWidget {
       theme: CustomTheme(context),
       routeInformationParser: _router.getRouter.routeInformationParser,
       routerDelegate: _router.getRouter.routerDelegate,
+
       debugShowCheckedModeBanner: false,
     );
   }
